@@ -2,9 +2,9 @@ Veewee::Definition.declare({
   :cpu_count => '1', :memory_size=> '768',
   :disk_size => '10140', :disk_format => 'VDI', :hostiocache => 'off',
   :os_type_id => 'FreeBSD_64',
-  :iso_file => "FreeBSD-8.0-RELEASE-amd64-dvd1.iso",
-  :iso_src => "file:///Users/nathan/Documents/vms/isos/FreeBSD-8.0-RELEASE-amd64-dvd1.iso",
-  :iso_md5 => "44c016ae8812a266f710d1845722366d",
+  :iso_file => "PCBSD8.0-x64-bootonly.iso",
+  :iso_src => "ftp://ftp.pcbsd.org/pub/archived/8.0/PCBSD8.0-x64-bootonly.iso",
+  :iso_md5 => "4d9e2dc3cb7c388c2c5e7ad54a668a92",
   :iso_download_timeout => "1000",
   :boot_wait => "70", :boot_cmd_sequence => [
     '<KillX>',
